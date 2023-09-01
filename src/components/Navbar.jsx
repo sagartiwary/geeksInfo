@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`bg-gray-800 h-16 ${isOpen ? "dark:bg-gray-900" : ""}`}>
+    <nav className={`bg-gray-800 h-16  ${isOpen ? "dark:bg-gray-900" : ""}`}>
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link className="flex items-center">
           <img src={Logo} className="h-6 mr-3" alt="logo" />
