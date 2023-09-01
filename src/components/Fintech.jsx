@@ -2,7 +2,7 @@ import React from "react";
 
 export const Fintech = () => {
   return (
-    <div className="bg-indigo-800 h-[980px] flex justify-center  items-center">
+    <div className="bg-indigo-800 h-[980px] flex justify-center  items-center pb-16">
       <div className="text-white max-w-7xl flex flex-col md:flex-row justify-between items-center mx-auto relative p-5 lg:flex-row sm:flex-col-reverse ">
         <div className="text-center md:text-left md:w-1/2">
           <h3 className="md:text-[63px] sm:text-[24px] sm:text-left m-4 font-semibold">
