@@ -59,7 +59,6 @@ export const softwareData = [
 export const gridData = [
     {
         img: "",
-        title: "Global Technology",
         desc: "From cloud computing to artificial intelligence, IBM's cutting-edge technologies and expertise have helped countless businesses stay ahead of the curve in today's digital world."
     },
     {

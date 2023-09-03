@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {FaArrowRight} from 'react-icons/fa'
 export const Checking = () => {
   return (
     <div className="bg-neutral-950 h-[700px]">
@@ -15,7 +15,10 @@ export const Checking = () => {
       </div>
       <button className="block mx-auto text-orange-500 hover:bg-orange-600 hover:text-white mt-10 border border-orange-500 px-6 py-3 rounded-full transition duration-150 hover:ease-in-out">
         {" "}
-        See all case studies
+        See all case studies{" "}
+        <span>
+          {/* <FaArrowRight /> */}
+        </span>
       </button>
 
       <div className="max-w-2xl  mx-auto md:mt-[120px]">
@@ -28,7 +31,6 @@ export const Checking = () => {
           industry
         </p>
       </div>
-      
     </div>
   );
 }
